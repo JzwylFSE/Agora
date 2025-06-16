@@ -795,6 +795,9 @@ video {
 .overflow-hidden {
   overflow: hidden;
 }
+.overflow-y-auto {
+  overflow-y: auto;
+}
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1055,6 +1058,10 @@ body{
   box-sizing: border-box;
 }
 
+/* body {
+  overflow: auto !important;
+} */
+
 .hover\:bg-\[\#1e1014\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(30 16 20 / var(--tw-bg-opacity, 1));
@@ -1183,4 +1190,3 @@ body{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
-

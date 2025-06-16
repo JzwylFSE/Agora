@@ -10,7 +10,7 @@ export default function Home() {
   const [cartCount, setCartCount] = useState(0); // Connect to your cart state
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col overflow-y-auto">
     <Navbar />
 
       {/* Hero Section */}

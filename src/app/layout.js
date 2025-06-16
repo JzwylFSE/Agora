@@ -22,7 +22,9 @@ export default function RootLayout({ children }) {
   return (
     <AuthProvider>
       <html lang="en">
-        <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <body
+          className={`min-h-screen overflow-y-auto ${geistSans.variable} ${geistMono.variable}`}
+        >
           {/* <Navbar /> */}
           {children}
           {/* {footer} */}
